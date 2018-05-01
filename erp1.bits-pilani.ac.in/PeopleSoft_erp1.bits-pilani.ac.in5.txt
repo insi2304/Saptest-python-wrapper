@@ -1,0 +1,176 @@
+
+
+ERPSCAN Pentesting tool v1.0
+
+by ERPScan (c) 2013
+
+
+Target: erp1.bits-pilani.ac.in:4431 with https
+
+URLs:
+
+/bea_wls_deployment_internal/DeploymentService - 200 OK
+
+/bea_wls_diagnostics/accessor - 401 Unauthorized
+
+/bea_wls_internal/HTTPClntLogin/a.tun?wl-login=1223&rand=11&AS=1&HL=19 - 200 OK
+
+/bea_wls_internal/index.html - 200 OK
+
+/bea_wls_management_internal2/Bootstrap - 409 Conflict
+
+/bea_wls_management_internal2/wl_management - 401 Unauthorized
+
+/console/login/LoginForm.jsp - 200 OK
+
+/consolehelp - 200 OK
+
+/CrystalReportViewerHandler - 404 Not Found
+
+/cs/ - 403 Forbidden
+
+/helloportletapp/HelloPortlet - 500 Internal Server Error
+
+/helloportletapp/jsp/helloportlet1.jsp - 500 Internal Server Error
+
+/helloportletapp/jsp/helloportlet2.jsp - 500 Internal Server Error
+
+/IMServlet/ - 200 OK
+
+/monitor/ - 200 OK
+
+/PP/ - 500 Internal Server Error
+
+/ppmi/ - 200 OK
+
+/PSAttachServlet/ - 500 Internal Server Error
+
+/psc/ - 200 OK
+
+/PSEMHUB/envmetadata/logs/log.txt - 200 OK
+
+/PSEMHUB/hub - 200 OK
+
+/psfiletransfer/ - 500 Internal Server Error
+
+/PSIGW/AS2ListeningConnector/ - 500 Internal Server Error
+
+/PSIGW/AS2ResponseConnector/ - 500 Internal Server Error
+
+/PSIGW/errorLog.html - 404 Not Found
+
+/PSIGW/ExampleServletListeningConnector/ - 200 OK
+
+/PSIGW/HttpListeningConnector/ - 200 OK
+
+/PSIGW/JMSListeningConnectorAdministrator/ - 403 Forbidden
+
+/PSIGW/PeopleSoftListeningConnector - 200 OK
+
+/PSIGW/PeopleSoftListeningConnector/ - 200 OK
+
+/PSIGW/PeopleSoftServiceListeningConnector/ - 500 Internal Server Error
+
+/PSIGW/PeopleSoftServiceListeningConnector/  - 500 Internal Server Error
+
+/PSIGW/PS81ListeningConnector/ - 200 OK
+
+/PSIGW/QASRepositoryWriter/ - 200 OK
+
+/PSIGW/QueryListeningConnector/ - 200 OK
+
+/PSINTERLINKS/BusInterlinkServLet - 200 OK
+
+/PSOL/  - 403 Forbidden
+
+/PSOL/htmldoc/eng/index.htm - 404 Not Found
+
+/PSOL/htmldoc/index.htm - 200 OK
+
+/PSOL/psolmanager.htm - 200 OK
+
+/PSOL/servlet/PSOLManager?func=changedebuglevel - 404 Not Found
+
+/psp/ - 200 OK
+
+/pspc/ - 403 Forbidden
+
+/pspc/csproxy/ - 403 Forbidden
+
+/pspc/PIAPortlet/ - 500 Internal Server Error
+
+/pspc/portlet/ - 404 Not Found
+
+/pspc/providers/ - 500 Internal Server Error
+
+/pspc/PSPortletEditServlet - 500 Internal Server Error
+
+/pspc/PSPortletShowServlet - 405 Method Not Allowed
+
+/pspc/pswsdl/ - 200 OK
+
+/pspc/services/ - 404 Not Found
+
+/pspc/test/ - 200 OK
+
+/pspc/upload/ - 200 OK
+
+/pspc/wsrp4j/ - 404 Not Found
+
+/psreports/ - 200 OK
+
+/RP/ - 200 OK
+
+/sawbridge - 500 Internal Server Error
+
+/SchedulerTransfer/ - 200 OK
+
+/SyncServer/ - 200 OK
+
+/testsuite/HelloPortlet/ - 500 Internal Server Error
+
+/testsuite/jsp/helloportlet1.jsp - 500 Internal Server Error
+
+/testsuite/TestPortlet1 - 500 Internal Server Error
+
+/testsuite/TestPortlet2 - 500 Internal Server Error
+
+/uddi/uddilistener - 200 OK
+
+/uddiexplorer/ - 200 OK
+
+/wls-wsat/CoordinatorPortType - 200 OK
+
+/wls-wsat/CoordinatorPortType11 - 200 OK
+
+/wls-wsat/ParticipantPortType - 200 OK
+
+/wls-wsat/ParticipantPortType11 - 200 OK
+
+/wls-wsat/RegistrationPortTypeRPC - 200 OK
+
+/wls-wsat/RegistrationPortTypeRPC11 - 200 OK
+
+/wls-wsat/RegistrationRequesterPortType - 200 OK
+
+/wls-wsat/RegistrationRequesterPortType11 - 200 OK
+
+/wsrptest/jsp/wsrptest2.jsp - 500 Internal Server Error
+
+/wsrptest/WSRPTestPortlet/ - 500 Internal Server Error
+
+/xmllink/ - 200 OK
+
+/_async/AsyncResponseService - 200 OK
+
+/_async/AsyncResponseServiceJms - 200 OK
+
+/_async/AsyncResponseServiceServlethttps - 404 Not Found
+
+/_async/AsyncResponseServiceSoap12 - 200 OK
+
+/_async/AsyncResponseServiceSoap12Https - 200 OK
+
+/_async/AsyncResponseServiceSoap12Jms - 200 OK
+
+

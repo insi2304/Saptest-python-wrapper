@@ -1,0 +1,25 @@
+
+
+ERPSCAN Pentesting tool v1.0
+
+by ERPScan (c) 2013
+
+
+Target: portal.iba.edu.pk:443 with https
+
+
+system:password - wrong!
+
+monitor:password - wrong!
+
+operator:password - wrong!
+
+system:Passw0rd - wrong!
+
+monitor:Passw0rd - wrong!
+
+operator:Passw0rd - wrong!
+
+weblogic:weblogic - wrong!
+
+weblogic:welcome1 - wrong!

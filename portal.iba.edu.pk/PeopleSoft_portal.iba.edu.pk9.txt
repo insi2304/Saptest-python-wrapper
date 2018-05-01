@@ -1,0 +1,10 @@
+
+
+ERPSCAN Pentesting tool v1.0
+
+by ERPScan (c) 2013
+
+
+Target: portal.iba.edu.pk:443 with https
+
+Error. Please, enter a start and an end port number

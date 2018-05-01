@@ -1,0 +1,17 @@
+PS:PS
+PS:peop1e
+PS:qwerty
+PS:123456
+PS:Password
+PS:Passw0rd
+PS:password
+VP1:VP1
+VP1:Password
+VP1:Passw0rd
+VP1:password
+VP1:people
+PTDMO:PTDMO
+PTDMO:Password
+PTDMO:Passw0rd
+PTDMO:password
+PTDMO:people

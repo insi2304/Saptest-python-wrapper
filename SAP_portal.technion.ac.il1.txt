@@ -1,0 +1,36 @@
+
+
+ERPSCAN Pentesting tool v1.0
+
+by ERPScan (c) 2013
+
+
+Target: portal.technion.ac.il:443 with https
+
+
+<?xml version="1.0" encoding="UTF-8" ?>
+ <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema"><SOAP-ENV:Header><sapsess:Session xmlns:sapsess="http://www.sap.com/webas/630/soap/features/session/"><enableSession>true</enableSession></sapsess:Session></SOAP-ENV:Header><SOAP-ENV:Body><ns1:testWebServices xmlns:ns1="urn:GRMGWSTestBeanVI"></ns1:testWebServices></SOAP-ENV:Body></SOAP-ENV:Envelope>
+
+SEND:
+POST https://portal.technion.ac.il:443/GRMGWSTest/service?style=rpc
+Cache-Control: no-cache
+User-Agent: ERPSCAN Pentesting tool
+Content-Type: text/xml; charset=utf-8
+Cookie: sap-client=000;
+
+
+<?xml version="1.0" encoding="UTF-8" ?>
+ <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema"><SOAP-ENV:Header><sapsess:Session xmlns:sapsess="http://www.sap.com/webas/630/soap/features/session/"><enableSession>true</enableSession></sapsess:Session></SOAP-ENV:Header><SOAP-ENV:Body><ns1:testWebServices xmlns:ns1="urn:GRMGWSTestBeanVI"></ns1:testWebServices></SOAP-ENV:Body></SOAP-ENV:Envelope>
+
+----------
+
+500 Can't connect to portal.technion.ac.il:443
+Content-Type: text/plain
+Client-Date: Sun, 19 Feb 2017 11:01:55 GMT
+Client-Warning: Internal response
+
+Can't connect to portal.technion.ac.il:443
+
+A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. at C:/Perl64/lib/LWP/Protocol/http.pm line 47.
+
+

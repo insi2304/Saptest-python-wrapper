@@ -1,0 +1,13 @@
+
+
+ERPSCAN Pentesting tool v1.0
+
+by ERPScan (c) 2013
+
+
+Target: portal.iba.edu.pk:443 with https
+
+
+You are not authorized to use this feature!
+
+
